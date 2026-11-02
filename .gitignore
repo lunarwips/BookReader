@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded books and covers
+backend/storage/books/
+backend/storage/covers/
+
+# Operating system
+.DS_Store
+Thumbs.db
