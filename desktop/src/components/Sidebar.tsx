@@ -2,7 +2,7 @@ export type Page =
 | "library"
 | "reading"
 | "favorites"
-| "collection"
+| "collections"
 | "profile"
 | "settings";
 

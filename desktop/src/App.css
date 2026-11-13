@@ -114,3 +114,49 @@ button {
   min-width: 0;
 }
 
+/* ADD BOOK CARD */
+
+.add-book-card {
+  width: 180px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.add-book-cover {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border: 1px dashed #777;
+  border-radius: 8px;
+  background: #383838;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  color: #aaa;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.add-book-card:hover .add-book-cover {
+  background: #414141;
+  border-color: #aaa;
+}
+
+.add-book-plus {
+  font-size: 42px;
+  font-weight: 300;
+  color: #aaa;
+}
+
+.add-book-cover span:last-child {
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header className="Header">
+        <header className="header">
             <input
             type="text"
             placeholder="Search books..."

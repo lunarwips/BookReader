@@ -10,7 +10,7 @@ function Favorites() {
         <section className="favorites">
             <h1>Favorites</h1>
 
-            <div className="book-gred">
+            <div className="book-grid">
                 {favoriteBooks.map((book) => (
                     <BookCard key={book.id} book={book} />
                 ))}
